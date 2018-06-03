@@ -13,12 +13,10 @@
     "ejs": "^2.5.6",
     "express": "^4.15.2"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisCanCompute/PersonalSite"
   },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/ChrisCanCompute/PersonalSite"
-  },
-  "license" : "MIT"
+  "license": "MIT"
 }
