@@ -7,13 +7,27 @@
   <% include ../partials/bootstrapJs.ejs %>
 
   <% include ../partials/menu.ejs %>
-  <h1>
-    <img src="images/Chris.png" />
-    Chris Arnott's personal site
-  </h1>
-  <p>
-    Currently a Software developer at <a href="https://www.gresearch.co.uk/">GResearch</a>, working with <a href="https://fsharp.org/">F#</a> to make systems easier to test and deploy.
-  </p>
-  <% include ../partials/links.ejs %>
+  <div class="container">
+    <div class="row align-items-center">
+        <div class="col-auto">
+          <img src="images/Chris.png" />
+        </div>
+        <div class="col-auto">
+          <h1><p>Chris Arnott's personal site</p></h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-center">
+          Currently a Software developer at <a href="https://www.gresearch.co.uk/">GResearch</a>, working with <a href="https://fsharp.org/">F#</a> to make systems easier to test and deploy.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <% include ../partials/links.ejs %>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
